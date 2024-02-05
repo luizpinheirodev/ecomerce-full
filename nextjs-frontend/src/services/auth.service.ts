@@ -25,7 +25,7 @@ export class AuthService {
     const data = await response.json();
 
     const cookieStore = cookies();
-    //cookie criptografado
+    //cookie criptografado (iron session)
     cookieStore.set("token", data.access_token);
   }
 
