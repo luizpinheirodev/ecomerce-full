@@ -34,6 +34,10 @@ $ npm install
 
 ## Running the app
 
+docker-compose up -d
+npm run fixture
+npm start:dev
+
 ```bash
 # development
 $ npm run start
@@ -47,7 +51,7 @@ $ npm run start:prod
 # creating queue
 Access localhost:15672 
 - Queues and Streams
-- Name: microservico-pagamentos - Add queue
+- Name: orders - Add queue
 - Bindings: 
   - From exchange: amq.direct
   - Routing key" OrderCreated
@@ -68,7 +72,7 @@ $ npm run test:e2e
 $ npm run test:cov
 ```
 
-# Log database
+
 
 
 ## Support

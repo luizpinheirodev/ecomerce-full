@@ -1,11 +1,13 @@
 Start docker: docker-compose up -d
+Start application: go run main.go
+
+
+
+Others:
 
 Bash for mysql: docker-compose exec mysql bash
 access database: mysql -uroot -p ecomerce
 paste file db.sql into mysql
-
-
-Start application: go run main.go
 
 
 Close application: Control+C
